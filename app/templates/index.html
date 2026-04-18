@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DataForge Consulting | Transformación Digital para tu Empresa</title>
+<meta name="description" content="Consultoría tecnológica en Lima, Perú. Sistemas a medida, Data & Analytics, Power Apps, automatización y más.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <a href="#" class="logo">Data<span>Forge</span><sup>consulting</sup></a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#sistemas">Sistemas internos</a></li>
+    <li><a href="#proceso">Cómo trabajamos</a></li>
+    <li><a href="#certificados">Certificados</a></li>
+    <li><a href="#contacto" class="nav-cta">Agenda una llamada</a></li>
+  </ul>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow fade-up d1">Consultoría tecnológica · Lima, Perú</div>
+    <h1 class="fade-up d2">Sistemas que hacen<br>crecer tu <em>negocio</em>.</h1>
+    <p class="hero-sub fade-up d3">Automatizamos y sistematizamos empresas. Desde la gestión interna y el análisis de datos hasta la presencia digital que atrae nuevos clientes.</p>
+    <div class="hero-btns fade-up d4">
+      <a href="#contacto" class="btn-primary">Agenda una llamada gratuita →</a>
+      <a href="#servicios" class="btn-secondary">Ver servicios</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+
+    <div class="hero-card">
+      <div class="card-label">De idea a sistema</div>
+      <div class="card-metric">4</div>
+      <div class="card-metric-sub">etapas para transformar tu operación</div>
+         <div style="display:flex; flex-direction:column; gap:10px; margin-top:20px;">
+        <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:#00E5A0; font-family:'Syne',sans-serif; font-weight:800; font-size:13px;">01</span>
+            <span style="color:rgba(255,255,255,0.7); font-size:13px;">Diagnóstico sin costo</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:#00E5A0; font-family:'Syne',sans-serif; font-weight:800; font-size:13px;">02</span>
+            <span style="color:rgba(255,255,255,0.7); font-size:13px;">Propuesta a medida</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:#00E5A0; font-family:'Syne',sans-serif; font-weight:800; font-size:13px;">03</span>
+            <span style="color:rgba(255,255,255,0.7); font-size:13px;">Desarrollo ágil</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+            <span style="color:#00E5A0; font-family:'Syne',sans-serif; font-weight:800; font-size:13px;">04</span>
+            <span style="color:rgba(255,255,255,0.7); font-size:13px;">Entrega y soporte</span>
+        </div>
+    </div>
+
+      <div class="card-chips" style="margin-top:20px;">
+
+        <span class="chip active">Reportes en tiempo real</span>
+        <span class="chip active">Procesos automáticos</span>
+        <span class="chip">Apps internas</span>
+        <span class="chip active">Datos ordenados</span>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- ══ TRUST BAR ══ -->
+<div class="trust-bar">
+  <div class="trust-label">Tecnologías</div>
+  <div style="overflow:hidden;flex:1">
+    <div class="trust-logos">
+      <div class="trust-logo">Python</div><div class="trust-logo">SQL Server</div>
+      <div class="trust-logo">Power BI</div><div class="trust-logo">Power Apps</div>
+      <div class="trust-logo">Power Automate</div><div class="trust-logo">Azure</div>
+      <div class="trust-logo">FastAPI</div><div class="trust-logo">React</div>
+      <div class="trust-logo">ETL / ELT</div><div class="trust-logo">PostgreSQL</div>
+      <div class="trust-logo">SAP</div><div class="trust-logo">SUNAT API</div>
+      <div class="trust-logo">Python</div><div class="trust-logo">SQL Server</div>
+      <div class="trust-logo">Power BI</div><div class="trust-logo">Power Apps</div>
+      <div class="trust-logo">Power Automate</div><div class="trust-logo">Azure</div>
+      <div class="trust-logo">FastAPI</div><div class="trust-logo">React</div>
+      <div class="trust-logo">ETL / ELT</div><div class="trust-logo">PostgreSQL</div>
+      <div class="trust-logo">SAP</div><div class="trust-logo">SUNAT API</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ PROBLEMA ══ -->
+<section class="problem" id="problema">
+  <span class="section-eyebrow">El problema que resolvemos</span>
+  <h2 class="section-title">¿Tu empresa sigue<br>gestionando en Excel?</h2>
+  <div class="problem-grid">
+    <div class="problem-items">
+      <div class="problem-item">
+        <div class="problem-icon">⏱️</div>
+        <div class="problem-text">
+          <h4>Procesos manuales que consumen horas</h4>
+          <p>Cierres contables y reportes que toman días se pueden automatizar con Power Automate o Python.</p>
+        </div>
+      </div>
+      <div class="problem-item">
+        <div class="problem-icon">📂</div>
+        <div class="problem-text">
+          <h4>Datos dispersos sin visibilidad real</h4>
+          <p>Información fragmentada en múltiples hojas, sin dashboards ni indicadores para decidir a tiempo.</p>
+        </div>
+      </div>
+      <div class="problem-item">
+        <div class="problem-icon">👥</div>
+        <div class="problem-text">
+          <h4>Sin sistema para gestionar tu equipo</h4>
+          <p>Reclutamiento por correo, contratos en papel, planillas en Excel. Tu capital humano merece un sistema real.</p>
+        </div>
+      </div>
+      <div class="problem-item">
+        <div class="problem-icon">🧾</div>
+        <div class="problem-text">
+          <h4>Facturación sin trazabilidad</h4>
+          <p>Facturas manuales, sin integración SUNAT y sin visibilidad del estado de cobros por cliente.</p>
+        </div>
+      </div>
+    </div>
+    <div class="problem-visual">
+      <div class="pv-title">Lo que logramos juntos</div>
+      <div class="pv-stat"><span class="pv-stat-label">Tiempo en procesos administrativos</span><span class="pv-stat-value">-70%</span></div>
+      <div class="pv-stat"><span class="pv-stat-label">Errores operativos</span><span class="pv-stat-value">-85%</span></div>
+      <div class="pv-stat"><span class="pv-stat-label">Visibilidad en tiempo real</span><span class="pv-stat-value">100%</span></div>
+      <div class="pv-stat" style="border-bottom:none"><span class="pv-stat-label">Adopción del equipo</span><span class="pv-stat-value">↑ Alta</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICIOS ══ -->
+<section class="services" id="servicios">
+  <div class="services-header">
+    <div>
+      <span class="section-eyebrow">Servicios</span>
+      <h2 class="section-title">Todo lo que tu empresa<br>necesita, en un solo lugar</h2>
+    </div>
+    <p class="section-sub">Desde el diagnóstico hasta la implementación. Trabajamos contigo, no solo para ti.</p>
+  </div>
+  <div class="services-grid">
+
+    <div class="service-card featured">
+      <div class="service-icon">⚙️</div>
+      <div class="service-name">Sistemas a medida</div>
+      <div class="service-desc">Desarrollo de aplicaciones internas para contabilidad, administración y RRHH. Adaptadas 100% a tu operación. Sin licencias costosas.</div>
+      <div class="service-tags"><span class="service-tag">Python</span><span class="service-tag">FastAPI</span><span class="service-tag">React</span><span class="service-tag">SQL</span></div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">📊</div>
+      <div class="service-name">Data & Analytics</div>
+      <div class="service-desc">ETL, pipelines de datos y dashboards en Power BI. Convierte tus datos en decisiones concretas conectando cualquier fuente.</div>
+      <div class="service-tags"><span class="service-tag">Power BI</span><span class="service-tag">ETL</span><span class="service-tag">SQL Server</span><span class="service-tag">Python</span></div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🤖</div>
+      <div class="service-name">Automatización de procesos</div>
+      <div class="service-desc">Flujos inteligentes con Power Automate y Python para eliminar tareas repetitivas. Aprobaciones, notificaciones y reportes automáticos.</div>
+      <div class="service-tags"><span class="service-tag">Power Automate</span><span class="service-tag">RPA</span><span class="service-tag">Python</span><span class="service-tag">Azure</span></div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🪟</div>
+      <div class="service-name">Aplicaciones con Power Apps</div>
+      <div class="service-desc">Apps empresariales low-code integradas con tu ecosistema Microsoft 365. Formularios, aprobaciones y portales internos.</div>
+      <div class="service-tags"><span class="service-tag">Power Apps</span><span class="service-tag">Dataverse</span><span class="service-tag">SharePoint</span><span class="service-tag">M365</span></div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔁</div>
+      <div class="service-name">Gestión de Outsourcing</div>
+    <div class="service-desc">Sistemas internos para gestionar tu operación completa: reclutamiento ATS, control de colaboradores, facturación electrónica y cartera de clientes en un solo lugar.</div>
+    <div class="service-tags"><span class="service-tag">ATS</span><span class="service-tag">RRHH</span><span class="service-tag">Facturación</span><span class="service-tag">CRM</span></div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🧠</div>
+      <div class="service-name">Consultoría tecnológica</div>
+      <div class="service-desc">Diagnóstico de tu situación actual y hoja de ruta para tu transformación digital. Sin tecnicismos, con resultados medibles.</div>
+      <div class="service-tags"><span class="service-tag">Diagnóstico</span><span class="service-tag">Roadmap</span><span class="service-tag">ROI</span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ SISTEMAS INTERNOS ══ -->
+<section class="internal-systems" id="sistemas">
+  <div class="sys-intro">
+    <span class="section-eyebrow">Sistemas internos</span>
+    <h2 class="section-title">Plataformas propias para<br>gestionar tu operación</h2>
+    <p class="section-sub">Código fuente incluido, sin suscripciones perpetuas, 100% tuyo.</p>
+  </div>
+  <div class="sys-grid">
+
+    <div class="sys-card">
+      <div class="sys-header">
+        <div class="sys-ico" style="background:#f0fdf7;">🎯</div>
+        <div>
+          <div class="sys-title">ATS — Sistema de Reclutamiento</div>
+          <div class="sys-subtitle">Applicant Tracking System a medida</div>
+        </div>
+      </div>
+      <div class="sys-body">
+        <p class="sys-desc">Gestiona todo el ciclo de selección desde la vacante hasta la contratación. Filtrado automático, pipeline visual y métricas de tiempo.</p>
+        <div class="sys-features">
+          <div class="sys-feat">Publicación de vacantes y recepción de postulaciones</div>
+          <div class="sys-feat">Filtrado automático de CVs por criterios configurables</div>
+          <div class="sys-feat">Pipeline visual: screening → entrevista → oferta → contratación</div>
+          <div class="sys-feat">Notificaciones automáticas a candidatos en cada etapa</div>
+          <div class="sys-feat">Reportes de fuentes de captación y tiempo de contratación</div>
+        </div>
+        <div class="sys-tags"><span class="sys-tag">Python</span><span class="sys-tag">React</span><span class="sys-tag">PostgreSQL</span></div>
+      </div>
+    </div>
+
+    <div class="sys-card">
+      <div class="sys-header">
+        <div class="sys-ico" style="background:#fff7ed;">🧾</div>
+        <div>
+          <div class="sys-title">Sistema de Facturación</div>
+          <div class="sys-subtitle">Emisión electrónica, cobros y cartera</div>
+        </div>
+      </div>
+      <div class="sys-body">
+        <p class="sys-desc">Emite facturas y boletas electrónicas integradas con SUNAT. Controla cuentas por cobrar y ten visibilidad total de tus ingresos.</p>
+        <div class="sys-features">
+          <div class="sys-feat">Emisión de facturas y boletas electrónicas (SUNAT)</div>
+          <div class="sys-feat">Control de cuentas por cobrar con semáforo de vencimiento</div>
+          <div class="sys-feat">Recordatorios automáticos de pago a clientes</div>
+          <div class="sys-feat">Reportes de ingresos por período, cliente y servicio</div>
+        </div>
+        <div class="sys-tags"><span class="sys-tag">Python</span><span class="sys-tag">SUNAT API</span><span class="sys-tag">SQL</span></div>
+      </div>
+    </div>
+
+    <div class="sys-card">
+      <div class="sys-header">
+        <div class="sys-ico" style="background:#f5f0ff;">👤</div>
+        <div>
+          <div class="sys-title">Sistema de Gestión de Personal</div>
+          <div class="sys-subtitle">RRHH, nómina y asignación a proyectos</div>
+        </div>
+      </div>
+      <div class="sys-body">
+        <p class="sys-desc">Centraliza toda la información de tu equipo: contratos, sueldo, asistencia y asignación a clientes en tiempo real.</p>
+        <div class="sys-features">
+          <div class="sys-feat">Legajo digital con documentos y contratos</div>
+          <div class="sys-feat">Cálculo automático de planilla, gratificaciones y CTS</div>
+          <div class="sys-feat">Asignación de colaboradores a clientes o proyectos</div>
+          <div class="sys-feat">Alertas de vencimiento de contratos y documentos</div>
+        </div>
+        <div class="sys-tags"><span class="sys-tag">Python</span><span class="sys-tag">Django</span><span class="sys-tag">PostgreSQL</span></div>
+      </div>
+    </div>
+
+    <div class="sys-card dark">
+      <div class="sys-header">
+        <div class="sys-ico">🔁</div>
+        <div>
+          <div class="sys-title">Sistema de Outsourcing 360°</div>
+          <div class="sys-subtitle">Del candidato al cliente, en una sola plataforma</div>
+        </div>
+      </div>
+      <div class="sys-body">
+        <p class="sys-desc">Para empresas que proveen personal a terceros. Captación, onboarding, asignación, control salarial y gestión de cartera de clientes.</p>
+        <div class="sys-features">
+          <div class="sys-feat">Captación y filtrado de candidatos (ATS integrado)</div>
+          <div class="sys-feat">Onboarding digital con firma electrónica</div>
+          <div class="sys-feat">Asignación del trabajador a cliente con fechas y tarifas</div>
+          <div class="sys-feat">Facturación automática al cliente por horas o tarifa fija</div>
+          <div class="sys-feat">CRM básico: gestión de cartera y estado de cada cliente</div>
+          <div class="sys-feat">Reportes de rentabilidad por cliente y trabajador asignado</div>
+        </div>
+        <div class="sys-tags"><span class="sys-tag">Python</span><span class="sys-tag">React</span><span class="sys-tag">Power BI</span><span class="sys-tag">Firma digital</span></div>
+      </div>
+    </div>
+<div class="sys-card">
+    <div class="sys-header">
+        <div class="sys-ico" style="background:#e8f4ff;">⚡</div>
+        <div>
+            <div class="sys-title">Automatización de tareas operativas</div>
+            <div class="sys-subtitle">Menos trabajo manual, más tiempo para lo que importa</div>
+        </div>
+    </div>
+    <div class="sys-body">
+        <p class="sys-desc">Automatizamos los procesos repetitivos de tu equipo: aprobaciones, notificaciones, reportes y flujos internos que hoy consumen horas de trabajo manual.</p>
+        <div class="sys-features">
+            <div class="sys-feat">Flujos de aprobación automáticos entre áreas</div>
+            <div class="sys-feat">Notificaciones y recordatorios sin intervención humana</div>
+            <div class="sys-feat">Generación automática de reportes periódicos</div>
+            <div class="sys-feat">Formularios internos conectados a tus sistemas actuales</div>
+            <div class="sys-feat">Reducción de hasta 70% en tareas administrativas repetitivas</div>
+        </div>
+        <div class="sys-tags">
+            <span class="sys-tag">Power Automate</span>
+            <span class="sys-tag">Power Apps</span>
+            <span class="sys-tag">Python</span>
+        </div>
+    </div>
+</div>
+<div class="sys-card dark">
+    <div class="sys-header">
+        <div class="sys-ico">📊</div>
+        <div>
+            <div class="sys-title">Reportes & Business Intelligence</div>
+            <div class="sys-subtitle">De Excel a decisiones en tiempo real</div>
+        </div>
+    </div>
+    <div class="sys-body">
+        <p class="sys-desc">Transformamos tus hojas de cálculo y datos dispersos en dashboards ejecutivos conectados en tiempo real. KPIs claros, sin esperar el reporte de fin de mes.</p>
+        <div class="sys-features">
+            <div class="sys-feat">Migración de Excel a Power BI con datos en vivo</div>
+            <div class="sys-feat">Dashboards ejecutivos con KPIs por área o gerencia</div>
+            <div class="sys-feat">Conexión a múltiples fuentes: ERP, CRM, bases de datos</div>
+            <div class="sys-feat">Reportes automáticos programados por email o SharePoint</div>
+            <div class="sys-feat">Data Gateway para conectar datos locales a la nube</div>
+            <div class="sys-feat">Alertas automáticas cuando un indicador sale del rango</div>
+        </div>
+        <div class="sys-tags">
+            <span class="sys-tag">Power BI</span>
+            <span class="sys-tag">SharePoint</span>
+            <span class="sys-tag">Data Gateway</span>
+            <span class="sys-tag">SQL</span>
+            <span class="sys-tag">ETL</span>
+        </div>
+    </div>
+</div>
+  </div>
+</section>
+
+<!-- ══ PROCESO ══ -->
+<section class="process" id="proceso">
+  <div style="text-align:center">
+    <span class="section-eyebrow">Cómo trabajamos</span>
+    <h2 class="section-title">Un proceso claro,<br>sin sorpresas</h2>
+  </div>
+  <div class="process-steps">
+    <div class="process-step">
+      <div class="step-num">01</div>
+      <div class="step-title">Diagnóstico</div>
+      <div class="step-desc">Reunión gratuita de 30 min. Entendemos tu operación, cuellos de botella y prioridades reales.</div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">02</div>
+      <div class="step-title">Propuesta</div>
+      <div class="step-desc"> Alcance, tiempos e inversión definidos desde el inicio. Así trabajamos.</div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">03</div>
+      <div class="step-title">Implementación</div>
+      <div class="step-desc">Metodología ágil con entregables visibles cada semana. Tú apruebas antes de avanzar.</div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">04</div>
+      <div class="step-title">Soporte continuo</div>
+      <div class="step-desc">Capacitación y soporte post-entrega. El sistema es tuyo — te acompañamos a usarlo bien.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CERTIFICADOS ══ -->
+<section class="certs" id="certificados">
+  <div style="text-align:center">
+    <span class="section-eyebrow">Credenciales</span>
+    <h2 class="section-title">Certificados que<br>respaldan nuestro trabajo</h2>
+    <p class="section-sub" style="margin:0 auto;text-align:center">Formación técnica reconocida internacionalmente en datos, cloud y Power Platform.</p>
+  </div>
+  <div class="certs-grid">
+    <div class="cert-card"><div class="cert-badge" style="background:#e8f4ff;">🪟</div><div class="cert-code">PL-900</div><div class="cert-name">Power Platform Fundamentals</div><div class="cert-issuer">Microsoft</div></div>
+    <div class="cert-card"><div class="cert-badge" style="background:#fff0f4;">📈</div><div class="cert-code">PL-300</div><div class="cert-name">Power BI Data Analyst</div><div class="cert-issuer">Microsoft</div></div>
+    <div class="cert-card"><div class="cert-badge" style="background:#f0fff8;">☁️</div><div class="cert-code">AZ-900</div><div class="cert-name">Microsoft Azure Fundamentals</div><div class="cert-issuer">Microsoft</div></div>
+    <div class="cert-card"><div class="cert-badge" style="background:#fffbf0;">🐍</div><div class="cert-code">PCEP</div><div class="cert-name">Certified Entry-Level Python Programmer</div><div class="cert-issuer">Python Institute</div></div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section id="contacto" style="padding:80px 0;background:var(--cream)">
+  <div class="cta-section">
+    <h2>¿Lista tu empresa para<br><em>dar el siguiente paso?</em></h2>
+    <p>Primera llamada gratuita de 30 minutos. Sin compromisos, sin tecnicismos. Solo soluciones reales.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;position:relative">
+      <a href="mailto:hola@dataforge.pe" class="btn-electric">Escríbenos ahora →</a>
+      <a href="https://wa.me/51999999999" target="_blank" class="btn-ghost">WhatsApp directo</a>
+    </div>
+    <div class="tagline-small">
+      <div class="tagline-item"><div class="dot"></div>Sin costo inicial</div>
+      <div class="tagline-item"><div class="dot"></div>Respuesta en 24h</div>
+      <div class="tagline-item"><div class="dot"></div>Lima · Remoto disponible</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#" class="logo" style="color:white">Data<span>Forge</span><sup style="color:rgba(255,255,255,.35)">consulting</sup></a>
+      <p>Transformación digital para empresas. Hacemos que la tecnología trabaje para ti, no al revés.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Servicios</h5>
+      <a href="#servicios">Sistemas a medida</a>
+      <a href="#servicios">Data & Analytics</a>
+      <a href="#servicios">Power Apps</a>
+      <a href="#servicios">Power Automate</a>
+    </div>
+    <div class="footer-col">
+      <h5>Sistemas internos</h5>
+      <a href="#sistemas">ATS — Reclutamiento</a>
+      <a href="#sistemas">Facturación electrónica</a>
+      <a href="#sistemas">Gestión de personal</a>
+      <a href="#sistemas">Outsourcing 360°</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contacto</h5>
+      <a href="mailto:hola@dataforge.pe">hola@dataforge.pe</a>
+      <a href="https://wa.me/51999999999">WhatsApp Business</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 DataForge Consulting · Lima, Perú</p>
+    <a href="#">Política de privacidad</a>
+  </div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

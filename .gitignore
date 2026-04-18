@@ -1,0 +1,28 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Variables de entorno (NUNCA subir a git)
+.env
+
+# Base de datos local
+*.db
+*.sqlite3
+instance/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
