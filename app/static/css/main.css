@@ -150,7 +150,7 @@ section { padding: 100px 60px; }
 .sys-ico     { width:48px; height:48px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:22px; flex-shrink:0; }
 .sys-title   { font-family:'Syne',sans-serif; font-weight:800; font-size:17px; margin-bottom:4px; letter-spacing:-.3px; }
 .sys-subtitle{ font-size:13px; color:var(--muted); }
-.sys-body    { padding:0 28px 28px;  display: none;}
+.sys-body    { padding:0 28px 28px; }
 .sys-desc    { font-size:14px; color:var(--muted); line-height:1.7; margin-bottom:16px; }
 .sys-features{ display:flex; flex-direction:column; gap:8px; margin-bottom:20px; }
 .sys-feat    { display:flex; align-items:flex-start; gap:10px; font-size:13px; color:#333; line-height:1.5; }
